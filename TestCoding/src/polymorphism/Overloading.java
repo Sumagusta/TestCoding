@@ -12,6 +12,10 @@ public class Overloading {
 		System.out.println(Deskripsi);
 	}
 	
+	public void handphone(String pemilik) {
+		System.out.println("HP sekarang dimiliki oleh "+pemilik);
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Overloading over = new Overloading();
